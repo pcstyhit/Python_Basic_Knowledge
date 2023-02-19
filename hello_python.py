@@ -1,15 +1,22 @@
 import turtle
 
-turtle.pensize(8)
-turtle.pencolor('yellow')
+def printHello():
+    A = "World"
+    print(f"hello,{A}")
 
-turtle.forward(100)
-turtle.right(60)
-turtle.forward(100)
-turtle.right(80)
+if __name__ == "__main__":
+    printHello()
+    
+    turtle.pensize(8)
+    turtle.pencolor('yellow')
 
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
+    turtle.forward(100)
+    turtle.right(60)
+    turtle.forward(100)
+    turtle.right(80)
 
-turtle.mainloop()
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+
+    turtle.mainloop()
