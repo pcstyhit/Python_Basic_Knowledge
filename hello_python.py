@@ -1,7 +1,7 @@
 import turtle
 
 turtle.pensize(8)
-turtle.pencolor('blue')
+turtle.pencolor('yellow')
 
 turtle.forward(100)
 turtle.right(60)
